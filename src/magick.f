@@ -1,8 +1,8 @@
 /*
-ImageMagick image processing package for Nift. v0.1.0 backend: the magick
-executable. The package repository is named "imagemagick" but the exported
-module-style value is `magick` (deliberate: package name != exported name).
-Public API: the `magick` struct. Helpers stay private.
+    ImageMagick image processing package for Nift. v0.1.0 backend: the magick
+    executable. The package repository is named "imagemagick" but the exported
+    module-style value is `magick` (deliberate: package name != exported name).
+    Public API: the `magick` struct. Helpers stay private.
 */
 
 fn(magick_available()) { return which("magick") != null }
