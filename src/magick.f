@@ -14,7 +14,7 @@ fn(magick_version_text()) {
 }
 
 fn(magick_guard()) {
-    if(!magick_available()) { return {"ok":false,"error":"magick executable not found","exit_code":127} }
+    if(!magick_available()) { return {"ok":false,"error":"magick executable not found","width":"","height":"","format":"","depth":"","colorspace":"","exit_code":127} }
     return null
 }
 
